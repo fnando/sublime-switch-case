@@ -10,7 +10,11 @@ Clone this repository into the Sublime Text “Packages” directory, which is l
 
 ## Usage
 
-The default binding is `super+k, super+c`. You can change it by defining a new shortcut binding like the following:
+The default binding is `super+k, super+c`.
+
+![SwitchCase in action](https://raw.github.com/fnando/sublime-switch-case/master/SwitchCase.gif)
+
+You can change it by defining a new shortcut binding like the following:
 
 ```json
 { "keys": ["super+k", "super+c"], "command": "switch_case" }
