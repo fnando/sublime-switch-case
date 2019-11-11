@@ -6,6 +6,10 @@ Since the introduction of `hyphen-separated` case conversion, you must select th
 
 ## Installation
 
+### Setup Package Control Repository
+
+To install packages from this channel, just add it to Package Control. Enable the command palette and type 'Add Repository'. Then paste the following URL: https://gist.githubusercontent.com/fnando/56393d3900af55bf9e94/raw/repositories.json
+
 ### Git Clone
 
 Clone this repository into the Sublime Text “Packages” directory, which is located where ever the “Preferences” -> “Browse Packages” option in sublime takes you.
