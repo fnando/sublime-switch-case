@@ -1,6 +1,6 @@
 # Switch Case for Sublime Text
 
-This package switches the word under the cursor between `snake_case`, `hyphen-separated`, `SCREAM_SNAKE_CASE` and `CamelCase`.
+This package switches the word under the cursor between `snake_case`, `hyphen-separated`, `SCREAM_SNAKE_CASE`, `CamelCase` and `camelBack`.
 
 Since the introduction of `hyphen-separated` case conversion, you must select the terms you want to convert beforehand.
 
