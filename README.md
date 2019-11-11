@@ -8,7 +8,7 @@ Since the introduction of `hyphen-separated` case conversion, you must select th
 
 ### Setup Package Control Repository
 
-To install packages from this channel, just add it to Package Control. Enable the command palette and type 'Add Repository'. Then paste the following URL: https://github.com/fnando/sublime-text-repository/raw/master/repositories.json
+Follow the instructions from https://sublime.fnando.com
 
 ### Git Clone
 
