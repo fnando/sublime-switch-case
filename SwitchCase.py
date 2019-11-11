@@ -36,21 +36,22 @@ class SwitchCaseCommand(sublime_plugin.TextCommand):
     pass
 
   def run(self, edit):
-    word_region = self.view.word(self.view.sel()[0])
-    word = self.view.substr(word_region)
+    for sel in self.view.sel():
+      word_region = self.view.word(sel)
+      word = self.view.substr(word_region)
 
-    if is_snake_case(word):
-      self.log("snake case to hyphenated")
-      self.view.replace(edit, word_region, convert_to_hyphenated(word))
-    elif is_hyphenated(word):
-      self.log("hyphenated to camelcase")
-      self.view.replace(edit, word_region, convert_to_camelcase(word))
-    elif is_camelcase(word):
-      self.log("camelcase to camelback")
-      self.view.replace(edit, word_region, convert_to_camelback(word))
-    elif is_camelback(word):
-      self.log("camelback to scream snake case")
-      self.view.replace(edit, word_region, convert_to_scream_snake_case(convert_to_snake_case(word)))
-    else:
-      self.log("scream snake case to snake case")
-      self.view.replace(edit, word_region, convert_to_snake_case(word))
+      if is_snake_case(word):
+        self.log("snake case to hyphenated")
+        self.view.replace(edit, word_region, convert_to_hyphenated(word))
+      elif is_hyphenated(word):
+        self.log("hyphenated to camelcase")
+        self.view.replace(edit, word_region, convert_to_camelcase(word))
+      elif is_camelcase(word):
+        self.log("camelcase to camelback")
+        self.view.replace(edit, word_region, convert_to_camelback(word))
+      elif is_camelback(word):
+        self.log("camelback to scream snake case")
+        self.view.replace(edit, word_region, convert_to_scream_snake_case(convert_to_snake_case(word)))
+      else:
+        self.log("scream snake case to snake case")
+        self.view.replace(edit, word_region, convert_to_snake_case(word))
