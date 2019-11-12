@@ -6,7 +6,8 @@ This package switches the word under the cursor between different cases.
 
 ### Setup Package Control Repository
 
-Follow the instructions from https://sublime.fnando.com
+1. Follow the instructions from https://sublime.fnando.com.
+2. Open the command pallete, run “Package Control: Install Package“, then search for “Switch Case“.
 
 ### Git Clone
 
