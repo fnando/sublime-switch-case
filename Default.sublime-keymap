@@ -1,3 +1,12 @@
 [
-  { "keys": ["super+k", "super+c"], "command": "switch_case" }
+  {
+    "keys": [
+      "super+k",
+      "super+c"
+    ],
+    "command": "switch_case",
+    "args": {
+      "type": "alternate"
+    }
+  }
 ]

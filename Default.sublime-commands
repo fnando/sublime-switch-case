@@ -1,0 +1,61 @@
+[
+  {
+    "caption": "Switch Case: CamelCase",
+    "command": "switch_case",
+    "args": {"type": "camel"}
+  },
+
+  {
+    "caption": "Switch Case: camelBack",
+    "command": "switch_case",
+    "args": {"type": "camel_back"}
+  },
+
+  {
+    "caption": "Switch Case: snake_case",
+    "command": "switch_case",
+    "args": {"type": "snake"}
+  },
+
+  {
+    "caption": "Switch Case: SCREAM_SNAKE_CASE",
+    "command": "switch_case",
+    "args": {"type": "scream_snake"}
+  },
+
+  {
+    "caption": "Switch Case: slash",
+    "command": "switch_case",
+    "args": {"type": "slash"}
+  },
+
+  {
+    "caption": "Switch Case: backslash",
+    "command": "switch_case",
+    "args": {"type": "backslash"}
+  },
+
+  {
+    "caption": "Switch Case: space",
+    "command": "switch_case",
+    "args": {"type": "space"}
+  },
+
+  {
+    "caption": "Switch Case: dot",
+    "command": "switch_case",
+    "args": {"type": "dot"}
+  },
+
+  {
+    "caption": "Switch Case: hyphenate",
+    "command": "switch_case",
+    "args": {"type": "hyphenate"}
+  },
+
+  {
+    "caption": "Switch Case: alternate",
+    "command": "switch_case",
+    "args": {"type": "alternate"}
+  },
+]

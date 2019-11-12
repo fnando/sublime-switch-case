@@ -1,8 +1,6 @@
 # Switch Case for Sublime Text
 
-This package switches the word under the cursor between `snake_case`, `hyphen-separated`, `SCREAM_SNAKE_CASE`, `CamelCase` and `camelBack`.
-
-Since the introduction of `hyphen-separated` case conversion, you must select the terms you want to convert beforehand.
+This package switches the word under the cursor between different cases.
 
 ## Installation
 
@@ -25,6 +23,10 @@ You can change it by defining a new shortcut binding like the following:
 ```json
 { "keys": ["super+k", "super+c"], "command": "switch_case" }
 ```
+
+There are also commands to convert to a specific case:
+
+![SwitchCase: available commands](https://raw.github.com/fnando/sublime-switch-case/master/SwitchCase-Commands.png)
 
 ## License
 
