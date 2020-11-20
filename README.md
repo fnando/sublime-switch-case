@@ -17,7 +17,7 @@ Clone this repository into the Sublime Text “Packages” directory, which is l
 
 The default binding is `super+k, super+c`.
 
-![SwitchCase in action](https://raw.github.com/fnando/sublime-switch-case/master/SwitchCase.gif)
+![SwitchCase in action](https://raw.github.com/fnando/sublime-switch-case/main/SwitchCase.gif)
 
 You can change it by defining a new shortcut binding like the following:
 
@@ -27,7 +27,7 @@ You can change it by defining a new shortcut binding like the following:
 
 There are also commands to convert to a specific case:
 
-![SwitchCase: available commands](https://raw.github.com/fnando/sublime-switch-case/master/SwitchCase-Commands.png)
+![SwitchCase: available commands](https://raw.github.com/fnando/sublime-switch-case/main/SwitchCase-Commands.png)
 
 ## License
 
